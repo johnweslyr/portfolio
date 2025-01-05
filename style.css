@@ -1,0 +1,150 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #f4f4f9;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #333;
+            color: #fff;
+            padding: 1rem 2rem;
+        }
+
+        .social-media {
+            display: flex;
+            gap: 10px;
+        }
+
+        .social-media a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+            padding: 10px 20px;
+        }
+
+        .social-media a:hover {
+            color: #007BFF;
+        }
+
+        .user-name {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .social-media {
+            width: 100%;       /* Adjust the logo to take up available space */
+            max-width: 300px;  /* Max width to avoid the logo becoming too large */
+            height: auto;      /* Maintain aspect ratio */
+            display: block;    /* Remove any unwanted inline spacing */
+            margin-right: auto; /* Center it horizontally */
+            margin-left: left;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444444;
+            padding: 2rem 0;
+            position: sticky; /* Keeps the nav fixed at the top while scrolling */
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: #007BFF;
+        }
+
+        section {
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+        .module {
+            min-height: 100vh;
+        }
+
+        #home {
+            background-image: url('background.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            height: 100vh; /* Full-screen height */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff; /* White text for contrast */
+            padding: 20px;
+        }
+    
+        #home h1 {
+            font-size: 4rem; /* Bigger font size for your name */
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds a subtle shadow for better readability */
+        }
+    
+        #home p {
+            font-size: 1.5rem; /* Medium size for tagline */
+            margin-bottom: 30px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+    
+        #home .btn {
+            text-decoration: none;
+            background: #007BFF; /* Button background color */
+            color: #fff; /* Button text color */
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            transition: background 0.3s, transform 0.2s;
+        }
+    
+        #home .btn &:hover {
+            background: #0056b3; /* Darker blue on hover */
+            transform: scale(1.1); /* Slightly enlarges the button */
+        }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 1rem;
+        }
+    
